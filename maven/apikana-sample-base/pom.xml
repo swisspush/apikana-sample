@@ -11,21 +11,9 @@
     </parent>
 
     <artifactId>apikana-sample-base</artifactId>
-    <properties>
-        <javaPackage>org.apikana.sample.base</javaPackage>
-    </properties>
 
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.jsonschema2pojo</groupId>
-                <artifactId>jsonschema2pojo-maven-plugin</artifactId>
-            </plugin>
-            <plugin>
-                <groupId>apikana</groupId>
-                <artifactId>apikana-maven-plugin</artifactId>
-            </plugin>
-        </plugins>
-    </build>
+    <properties>
+        <apikana.java-package>apikana.sample.base</apikana.java-package>
+    </properties>
 
 </project>
