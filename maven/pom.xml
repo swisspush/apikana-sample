@@ -20,5 +20,4 @@
         <module>apikana-sample-base</module>
         <module>apikana-sample-dependent</module>
     </modules>
-
 </project>
