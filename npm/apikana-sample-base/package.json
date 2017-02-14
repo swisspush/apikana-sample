@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "apikana src dist --javaPackage=apikana.test",
-    "serve": "apikana-serve src dist"
+    "start": "apikana start"
   },
   "repository": {
     "type": "git",
@@ -25,7 +24,8 @@
     "url": "https://github.com/lbovet/apikana-sample/issues"
   },
   "homepage": "https://github.com/lbovet/apikana-sample#readme",
+  "dependencies": {
+  },
   "devDependencies": {
-    "apikana": "0.1.3"
   }
 }
