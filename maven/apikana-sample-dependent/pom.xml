@@ -11,9 +11,6 @@
     </parent>
 
     <artifactId>apikana-sample-dependent</artifactId>
-    <properties>
-        <apikana.java-package>apikana.sample</apikana.java-package>
-    </properties>
 
     <dependencies>
         <dependency>

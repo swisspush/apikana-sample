@@ -12,8 +12,4 @@
 
     <artifactId>apikana-sample-base</artifactId>
 
-    <properties>
-        <apikana.java-package>apikana.sample.base</apikana.java-package>
-    </properties>
-
 </project>
