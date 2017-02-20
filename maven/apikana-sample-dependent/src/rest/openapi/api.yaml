@@ -6,8 +6,9 @@ info:
   title: User API
   version: @project.version@
 paths:
-  /v1/users/{id}:
+  /sample/v1/users/{id}:
     get:
+      description: Retrieve a user
       operationId: getUser
       parameters:
         - description: User ID
@@ -26,12 +27,12 @@ paths:
           description: User not found
         500:
           description: Internal error
-      summary: Retrieve a user
+      summary: Retrieve a user.
       tags:
         - user
-  /v1/users:
+  /sample/v1/users:
     get:
-      description: bla
+      description: Get all users
       operationId: getUsers
       responses:
         200:
@@ -46,7 +47,7 @@ paths:
       tags:
         - user
     post:
-      description: bla
+      description: Add a new user
       operationId: postUser
       parameters:
         - description: the user to be added

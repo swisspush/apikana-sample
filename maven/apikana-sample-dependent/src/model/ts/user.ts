@@ -1,8 +1,7 @@
-import {Company} from "apikana-sample-base/company";
-// import {Int, TimeOnly,DateOnly, DateTime, UTC} from "apikana/default-types";
-export type UUID=string // @format uuid
+import {Company} from 'apikana-sample-base/company'
+
 interface Users {
-    // count: Int
+    count: number
     data: User[]
 }
 
@@ -11,15 +10,11 @@ enum Gender{
 }
 
 interface User {
-    // id: UUID
+    id: number
     firstName: string //the given name
     lastName: string //the family name
-    // age?: Int
-
-    // birthday: DateOnly
-    // birthtime: TimeOnly
-    // birth: DateTime
-    // birthinstant: UTC
+    age?: number
+    gender: Gender
     parent?: User
     company: Company
 }
