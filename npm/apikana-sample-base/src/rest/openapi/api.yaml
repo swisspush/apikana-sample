@@ -1,0 +1,55 @@
+host: https://server
+basePath: /api/company
+info:
+  contact:
+    email: user@all.users
+  description: API for companies
+  title: Company API
+  version: @version@
+paths:
+  /sample/v1/companies/{id}:
+    get:
+      description: Retrieve a company
+      operationId: getCompany
+      parameters:
+        - description: Company ID
+          in: path
+          name: id
+          required: true
+          type: number
+      responses:
+        200:
+          description: ok
+          schema:
+            $ref: "#/definitions/Company"
+        400:
+          description: Invalid request
+        404:
+          description: Company not found
+        500:
+          description: Internal error
+      summary: Retrieve a company.
+      tags:
+        - company
+  /sample/v1/companies:
+    get:
+      description: Get all companies
+      operationId: getCompanies
+      responses:
+        200:
+          description: ok
+          schema:
+            $ref: "#/definitions/Companies"
+        400:
+          description: invalid request
+        500:
+          description: internal error
+      summary: Get all companies.
+      tags:
+        - company
+swagger: 2.0
+tags:
+  - description: company
+    name: company
+tsModels:
+  - ../../model/ts/company.ts
