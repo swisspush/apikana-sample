@@ -1,19 +1,20 @@
-import {Company} from 'apikana-sample-base/company'
+import {Company} from 'apikana-sample-base/company';
+import {Int} from 'apikana/default-types';
 
-interface Users {
-    count: number
+export interface Users {
+    count: Int
     data: User[]
 }
 
-enum Gender{
+export enum Gender{
     MALE, FEMALE
 }
 
-interface User {
-    id: number
+export interface User {
+    id: Int
     firstName: string //the given name
     lastName: string //the family name
-    age?: number
+    age?: Int
     gender: Gender
     parent?: User
     company: Company

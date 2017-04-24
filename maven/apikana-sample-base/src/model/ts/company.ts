@@ -1,4 +1,6 @@
+import {Int} from 'apikana/default-types';
+
 export interface Company {
-    id: number
+    id: Int
     name: string
 }
