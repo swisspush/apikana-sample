@@ -51,5 +51,6 @@ swagger: 2.0
 tags:
   - description: company
     name: company
-tsModels:
-  - ../../model/ts/company.ts
+definitions:
+  $ref:
+    - ../../model/ts/company.ts
