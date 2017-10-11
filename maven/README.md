@@ -2,5 +2,6 @@
 
 ## Usage
 
-Run `mvn install`.
-Open a browser at `http://localhost:8333`.
+- Install apikana globally: `npm install -g apikana`.
+- Run `mvn install`.
+- Open a browser at `http://localhost:8333`.

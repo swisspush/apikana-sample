@@ -53,4 +53,4 @@ tags:
     name: company
 definitions:
   $ref:
-    - ../../model/ts/company.ts
+    - ../ts/company.ts
