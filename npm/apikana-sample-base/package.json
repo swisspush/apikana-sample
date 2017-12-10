@@ -10,5 +10,8 @@
     "url": "git+https://github.com/lbovet/apikana-sample.git"
   },
   "author": "Laurent Bovet",
-  "license": "Apache-2.0"
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "apikana": "0.3.2"
+  }
 }
