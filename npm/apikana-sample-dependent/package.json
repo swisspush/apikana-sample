@@ -12,7 +12,7 @@
   "author": "Laurent Bovet",
   "license": "Apache-2.0",
   "devDependencies": {
-    "apikana": "0.3.3"
+    "apikana": "0.3.6"
   },
   "dependencies": {
     "apikana-sample-base": "file:../apikana-sample-base"
