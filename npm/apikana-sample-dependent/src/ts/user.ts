@@ -6,7 +6,7 @@ export interface Users {
     data: User[]
 }
 
-export enum Gender{
+export enum Gender {
     MALE, FEMALE
 }
 
@@ -20,3 +20,6 @@ export interface User {
     company: Company
 }
 
+export interface SingleCompany extends Company, User {
+    socialSecurityNumber: string
+}

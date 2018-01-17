@@ -5,6 +5,7 @@ export interface Company {
     companyName: string
 }
 
-export interface Ltd extends Company{
+export interface Ltd extends Company {
     stock: Int
+    properties?: { [key: string]: string }
 }
