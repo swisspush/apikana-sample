@@ -12,6 +12,6 @@
   "author": "Laurent Bovet",
   "license": "Apache-2.0",
   "devDependencies": {
-    "apikana": "0.3.14"
+    "apikana": "0.4.7"
   }
 }
